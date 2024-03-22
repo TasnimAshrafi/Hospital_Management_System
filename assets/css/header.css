@@ -1,0 +1,39 @@
+
+.header-v1 .topbar-v1 {
+	background: #fdfdfd;
+	border-top: solid 1px #f0f0f0;
+	border-bottom: solid 1px #f0f0f0;
+}
+
+/*Top Contacts*/
+.header-v1 .topbar-v1 ul {
+	margin: 0;
+}
+
+.header-v1 .topbar-v1 .top-v1-contacts li {
+	color: #666;
+	padding: 5px 0;
+	font-size: 12px;
+	margin-right: 15px;
+}
+
+
+/*Top Data*/
+.header-v1 .topbar-v1 .top-v1-data {
+	text-align: left;
+}
+
+.header-v1 .topbar-v1 .top-v1-data li {
+	padding: 5px 11px;
+	margin-left: -10px;
+	display: inline-block;	
+	border-right: solid 1px #eee;
+}
+
+
+/* Header navbar*/
+
+.header-v1 .navbar-nav {
+		float: right;
+	}	
+

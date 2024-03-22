@@ -1,0 +1,310 @@
+/*Welcome Section Css*/
+
+p{
+    color: #333;
+}
+.welcomeSection {
+  background-color: #f9f9f9;
+  width: 100%;
+  margin-top: -20px;
+  padding-bottom: 40px; 
+}
+.content-md {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.section1 {
+  margin-left: 40px;
+}
+
+h2.title-v2 {
+  color: #555;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+h2.title-v2:after {
+  left: 0;
+  width: 70px;
+  height: 2px;
+  content: " ";
+  bottom: -10px;
+  background: #2c51c0;
+  position: absolute;
+}
+
+.overflow-h { 
+  overflow: hidden;
+}
+
+
+/* Our Speciality Section */
+.content-boxes-v5 i {
+  color: #999;
+  width: 50px;
+  height: 50px;
+  padding: 11px;
+  font-size: 22px;
+  background: #eee;
+  line-height: 28px;
+  text-align: center;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+.content-boxes-v5:hover i {
+  color: #fff;
+  background: #2c51c0;
+}
+.no-top-space {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/*Health package Css*/
+.pricingSection {
+  background-color: #f9f9f9;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 60px; 
+  margin-bottom: 50px; 
+}
+
+/*---
+  Pricing
+---*/
+.pricing-v9 {
+  border: 1px solid #eef2f7;
+}
+.pricing-v9:hover {
+  box-shadow: 0 0 15px #ddd;
+}
+.pricing-v9-head {
+  border-bottom: 1px solid #eef2f7;
+}
+.pricing-v9-head h3 {
+  margin: 0;
+}
+.pricing-v9 ul {
+  margin: 0;
+}
+.pricing-v9 li {
+  margin-bottom: 5px;
+}
+.pricing-v9-price,
+.pricing-v9-footer,
+.pricing-v9 ul,
+.pricing-v9-head {
+  padding: 20px 15px;
+}
+.pricing-v9-price,
+.pricing-v9-footer {
+  border-top: 1px solid #eef2f7;
+}
+.pricing-v9-price {
+  font-weight: 500;
+}
+.h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 0;
+  letter-spacing: 1px;
+}
+
+.hover-effect {
+transition: all 0.4s ease-in-out;
+}
+
+.g-color-default { color: #2c51c0;}
+.color-green { color: #2c51c0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*about us*/ 
+/*contuct us*/
+/*doctors*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer Css*/
+
+.footer-logo {
+	margin: 17px 0 20px;
+}
+
+/*Latest List*/
+.latest-list li {
+	padding: 8px 0;
+	border-top: 1px solid #353535;
+}
+
+.latest-list li:first-child {
+	padding-top: 0;
+	border-top: none;
+}
+
+.latest-list li a {
+	color: #eee;
+}
+
+.latest-list small {
+	color: #999;
+	display: block;
+}
+
+.headline {
+	display: block;
+	margin: 10px 0 25px 0;
+	border-bottom: 1px dotted #e4e9f0;
+}
+
+.headline h2 {
+	font-size: 22px;
+}
+
+.headline h2,
+.headline h3,
+.headline h4 {
+	margin: 0 0 -2px 0;
+	padding-bottom: 5px;
+	display: inline-block;
+	border-bottom: 2px solid #2c51c0;
+}
+
+/*Link List*/
+.link-list li {
+	border-top: solid 1px #353535;
+}
+
+.link-list li:first-child {
+	border-top: none !important;
+}
+
+.link-list a {
+	color: #eee;
+	font-size: 11px;
+	padding: 6px 0px;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.link-list li i {
+	color: #bbb;
+	float: right;
+	margin-top: 10px;
+}
+
+
+/*Padding*/
+
+.content {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.content-sm {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+
+
+/*Headline (Titles) */
+.headline-center {
+	text-align: center;
+	position: relative;
+}
+
+.headline-center h2 {
+	color: #555;
+	font-size: 24px;
+	position: relative;
+	padding-bottom: 15px;
+}
+.headline-center p {
+
+	font-size: 14px;
+}
+.line {
+	width: 50px;
+	margin-top: -10px;
+	margin-left: 550px;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #2c51c0;
+}
+.line2 {
+	width: 50px;
+	margin-top: 10px;
+	margin-left: 650px;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #2c51c0;
+}
+
+
+
+
+/*Headings h1 to h6*/
+h1 {
+	font-size: 28px;
+	line-height: 35px;
+}
+h2 {
+	font-size: 24px;
+	line-height: 33px;
+}
+h3 {
+	font-size: 18px;
+	line-height: 27px;
+}
+h4 {
+	line-height: 25px;
+}
+h5 {
+	line-height: 20px;
+}
+h6 {
+	line-height: 18px;
+}
+
+.font-open-sans {
+	font-family: "Open Sans", Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #555;
+	margin-top: 5px;
+	text-shadow: none;
+	font-weight: normal;
+	font-family: "Open Sans", Arial, sans-serif;
+}
+
+h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
+	margin-right: 5px;
+}
