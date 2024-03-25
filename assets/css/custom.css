@@ -131,8 +131,132 @@ transition: all 0.4s ease-in-out;
 
 
 
+/* About US CSS*/
 
-/*about us*/ 
+/* Section 1*/
+/*Blockquote*/
+blockquote {
+	padding: 5px 15px;
+	border-left-width: 2px;
+}
+
+blockquote p {
+	font-size: 14px;
+	font-weight: 400;
+}
+blockquote:hover {
+	border-color: #2c51c0;
+}
+
+/* About us Section 2 */
+.aboutSection{
+	background-color: #f9f9f9;
+	width: 100%;	
+}
+
+.service-block-v6 i {
+  float: left;
+  margin: 5px 15px 0 0;
+}
+
+.service-block-v6 .service-desc p {
+  overflow: hidden;
+}
+
+.service-block-v6 .service-desc h2 {
+  font-size: 18px;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+}
+
+.service-block-v6 .service-desc a {
+  text-transform: uppercase;
+}
+
+i.icon-custom {
+	color: #555;
+	width: 40px;
+	height: 40px;
+	font-size: 20px;
+	line-height: 40px;
+	margin-bottom: 5px;
+	text-align: center;
+	display: inline-block;
+	border: solid 1px #555;
+}
+.rounded-x { border-radius: 50% !important;}
+i.icon-color-u {
+	color: #2c51c0;
+	border: solid 1px #2c51c0;
+}
+i.icon-line {
+	font-size: 17px;
+}
+
+
+
+/*Doctors Css*/
+.team-v1 ul {
+  position: relative;
+}
+
+/*Team Image*/
+.team-v1 li > .team-img {
+  position: relative;
+}
+
+.team-v1 li > .team-img:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: " ";
+  position: absolute;
+  background: transparent;
+  transition: all 0.4s ease-in-out;
+}
+
+.team-v1 li:hover > .team-img:after {
+  background: rgba(0,0,0,0.5);
+}
+
+/*Team Description*/
+.team-v1 li > h3 {
+  color: #555;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 15px 0 7px;
+  text-transform: uppercase;
+}
+
+.team-v1 li > h4 {
+  color: #999;
+  font-size: 11px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.team-v1 li > p {
+  margin: 20px 0;
+  position: relative;
+}
+
+.team-v1 li > p:before {
+  left: 0;
+  top: -10px;
+  height: 1px;
+  width: 40px;
+  content: " ";
+  position: absolute;
+  background: #bbb;
+  transition: all 0.4s ease-in-out;
+}
+
+.team-v1 li:hover > p:before {
+  width: 100%;
+  background: #2c51c0;
+}
+
 /*contuct us*/
 /*doctors*/
 
